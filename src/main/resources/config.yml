@@ -1,0 +1,69 @@
+# World name where play this minigame
+world: world
+
+### Spectate is not working!
+### Spectator location (X Y Z YAW PITCH )
+### spectator_location: 0 100 0 0 0
+
+# Max player can be join
+max_players: 100
+
+# Game automatically stop ( in minutes )
+game_stop: 10
+
+# Team players limit
+teams_limit: 50
+
+# Banner locations ( X Y Z )
+# Block faces: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/BlockFace.html
+blue_banner:
+  Location: 30 70 30
+  Facing: north
+red_banner:
+  Location: 0 70 0
+  Facing: south
+
+# Lobby locations ( X Y Z YAW PITCH )
+lobby_location_1: 130 130 130
+lobby_location_2: 70 100 70
+lobby_teleport_location: 100 100 100 0 0
+
+# Fence rebuild in seconds
+fence_rebuild: 30
+
+# Team spawns ( X Y Z YAW PITCH )
+blue_spawn: 25 70 30 0 0
+red_spawn: 5 70 0 0 0
+
+# Spawn loc
+spawn_location: 150 100 150
+
+# Game start
+game_start: 60 # in seconds
+minimum_players: 20
+
+# Minigame map corner locations
+map_location_1: 10 10 10
+map_location_2: 20 20 20
+
+# I suggest disabling all teleport commands from game and lobby, because it can cause problems
+# If any of the commands still fail to disable, you can disable more commands with WorldGuard
+# Blocked commands in lobby and game ( castlewars leave is enabled ):
+BlockedCommands:
+  - spawn
+  - tpa
+  - tpaccept
+  - lobby
+  - hub
+  - sethome
+  - home
+  - warp
+
+Scoreboard:
+  title: '&7Scoreboard'
+  lines:
+    - '&7Kills: &c%kills%'
+    - '&7Deaths: &c%deaths%'
+    - '&7Points: &c%points%'
+    - '&7Wins: &c%wins%'
+    - '&7Losses: &c%losses%'

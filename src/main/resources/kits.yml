@@ -1,0 +1,39 @@
+# Enchantment list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# Player inventory slot numbers: https://bugs.mojang.com/secure/attachment/61101/Items_slot_number.jpg
+# Item/Material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+#
+# <> - Required
+# [] - Optional
+#
+# This plugin only works with leather armor.
+# Template: <item name> <amount> [enchantments] [name] [lore] [slot] [color (just leather armor)] [unbreakable:true]
+#
+# Templates:
+# - wooden_sword 1 durability:10 name:Blue's sword lore:Line1|Line2|Line3 sharpness:1 durability:2 knockback:1
+# You can
+
+kits:
+  blue:
+    items:
+      - wooden_sword 1 durability:10 name:Blue's sword unbreakable:true
+      - wooden_axe 1 unbreakable:true
+      - arrow 64 slot:17
+      - bow 1 infinity:1 punch:2 unbreakable:true
+      - cooked_beef 32
+    armor:
+      - leather_helmet 1 color:0,0,255 protection:1 unbreakable:true
+      - leather_chestplate 1 color:0,0,255 unbreakable:true
+      - leather_leggings 1 color:0,0,255 unbreakable:true
+      - leather_boots 1 color:0,0,255 unbreakable:true
+  red:
+    items:
+      - wooden_sword 1 durability:10 name:Red's sword unbreakable:true
+      - wooden_axe 1 unbreakable:true
+      - arrow 64 slot:17
+      - bow 1 infinity:1 punch:2 unbreakable:true
+      - cooked_beef 32
+    armor:
+      - leather_helmet 1 color:255,0,0 protection:1 unbreakable:true
+      - leather_chestplate 1 color:255,0,0 unbreakable:true
+      - leather_leggings 1 color:255,0,0 unbreakable:true
+      - leather_boots 1 color:255,0,0 unbreakable:true

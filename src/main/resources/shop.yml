@@ -1,0 +1,63 @@
+page1_title: "&8CWCoins shop | Page 1"
+page2_title: "&8CWCoins shop | Page 2"
+
+leave_shop_item:
+  name: '&cLeave shop'
+  lore:
+    - '&5 '
+    - '&7Click to leave shop'
+
+skull_item:
+  name: '&e%name%'
+  lore:
+    - '&5 '
+    - '&6Coins: &e%coins%'
+
+next_page:
+  name: '&aNext page'
+  lore:
+    - '&5 '
+    - '&7Click to go to next page'
+
+previous_page:
+  name: '&cPrevious page'
+  lore:
+    - '&5 '
+    - '&7Click to go to previous page'
+
+page_1:
+  stonesword:
+    price: 50
+    name: '&cStone sword'
+    # Material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    material: 'STONE_SWORD'
+    amount: 1
+    lore:
+      - '&5'
+      - '&7&oA stone sword'
+      - '&5'
+      - '&6Costs: &e50 CWC'
+    # Inventory slot numbers: https://cdn.skunity.com/2017/07/2190_71e8e80f10eaf935cb0ff5e378e6e4c0.png
+    slot: 0
+    enchantments:
+      - 'sharpness:1'
+      - 'knockback:2'
+
+page_2:
+  diamond_sword:
+    price: 150
+    name: '&bDiamond sword'
+    amount: 1
+    # Material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    material: 'DIAMOND_SWORD'
+    lore:
+      - '&5'
+      - '&7&oA diamond sword'
+      - '&5'
+      - '&6Costs: &e150 CWC'
+    # Inventory slot numbers: https://cdn.skunity.com/2017/07/2190_71e8e80f10eaf935cb0ff5e378e6e4c0.png
+    slot: 2
+    enchantments:
+      - 'sharpness:10'
+      - 'knockback:10'
+      - 'fireaspect:111'

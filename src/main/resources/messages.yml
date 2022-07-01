@@ -1,0 +1,74 @@
+target_not_found: '&8[&6CastleWars&8] &cTarget is not found!'
+in_lobby: '&8[&6CastleWars&8] &cYou are currently in lobby!'
+in_game: '&8[&6CastleWars&8] &cYou are currently in a game!'
+actionbar_starts: '&7Game start in &e%time% seconds&7!'
+need_more_players: '&6%players% &7needed to start the game!'
+not_in_lobby_game: '&8[&6CastleWars&8] &cYou are not in lobby or game!'
+spectate_tp: '&8[&6CastleWars&8] &aTeleported to spectator place!'
+saved_kit: '&8[&6CastleWars&8] &aSuccessfully saved kit!'
+remove_kit: '&8[&6CastleWars&8] &aSuccessfully removed kit!'
+cant_use_this_cmd: '&8[&6CastleWars&8] &cYou can''t you this command here! &7Type &c&o/castlewars leave &7to leave!'
+you_have_banner: '&8[&6CastleWars&8] &cYou already carrying a banner!'
+start_game: '&8[&6CastleWars&8] &aCastlewars has begun!'
+empty_hand: '&8[&6CastleWars&8] &cYou must have empty hands to pick this up!'
+join_message: '&8[&6CastleWars&8] &e%player% &7joined the game &e%number%/%max%&7.'
+leave_message: '&8[&6CastleWars&8] &e%player% &7has left CastleWars.'
+join_message_need_more: '&8[&6CastleWars&8] &e%player% &7joined the game, still nedd &6%need_players% &7more players to start!'
+banner_return: '&8[&6CastleWars&8] %team% &eflag was stolen, but got returned by &6%player%'
+banner_pickup: '&8[&6CastleWars&8] &6%team% &6team is recovering their flag, stop them!'
+banner_stole: '&8[&6CastleWars&8] %stolen_team% &6team has stolen your flag! Hunt them down!'
+lobby_full: '&8[&6CastleWars&8] &cLobby is full!'
+not_enough_money: '&8[&6CastleWars&8] &cYou don''t have enough points!'
+full_inventory: '&8[&6CastleWars&8] &cYou don''t have enough space in your inventory!'
+game_running: '&8[&6CastleWars&8] &cCastleWars already running!'
+
+# Game ending
+game_end_without_winner: '&8[&6CastleWars&8] &6No team won, next time better!'
+game_end_broadcast: '&8[&6CastleWars&8] %winner% &7won against %loser%&7!'
+winner_title:
+  title: '&a&lVictory!'
+  subtitle: '&aWell done! You brought your team to victory!'
+loser_title:
+  title: '&c&lDefeat!'
+  subtitle: '&cYou have been defeated by the %team% team.'
+
+# Shop message
+purchase: '&8[&6CastleWars&8] &eYou &7purchased &e%amount% x %item% &7for &e%price%&7 points!'
+
+# Admin point commands
+givepoints_admin: '&8[&6CastleWars&8] &e%player% &7was given &e%amount%&7 points!'
+givepoints_player: '&8[&6CastleWars&8] &eYou &7were given &e%amount%&7 &7points from &e%admin%&7!'
+
+setpoints_admin: '&8[&6CastleWars&8] &e%player% &7was set to &e%amount%&7 points!'
+setpoints_player: '&8[&6CastleWars&8] &eYou &7were set to &e%amount%&7 &7points by &e%admin%&7!'
+
+takepoints_admin: '&8[&6CastleWars&8] &e%player% &7was taken &e%amount%&7 points!'
+takepoints_player: '&8[&6CastleWars&8] &eYou &7were taken &e%amount%&7 &7points by &e%admin%&7!'
+
+# Admin commands
+clear_stats_admin: '&8[&6CastleWars&8] &aStats of &2&o%player% &acleared!'
+clear_stats_player: '&8[&6CastleWars&8] &aYour stats cleared by &2&o%admin%&a!'
+
+# Team chats
+chat_design: '&7&l> &8[%team%&8] &6%player%&f: &e%message%'
+
+# Statistics
+statistics:
+  - '&eStatistics of &6&o%player%&e:'
+  - '&5'
+  - '&7┌ &6Kills: &e%kills%'
+  - '&7├ &6Deaths: &e%deaths%'
+  - '&7├ &6Wins: &e%wins%'
+  - '&7├ &6Points: &e%points%'
+  - '&7└ &6Matches: &e%matches%'
+
+# Tool messages
+set_banner_location: '&8[&6CastleWars&8] &7- Tools: &e%team% &fbanner location has been updated! &cPlease adjust the banner facing in the config.yml!'
+team_spawn_location: '&8[&6CastleWars&8] &7- Tools: &e%team% &fspawn location had been updated! &cPlease adjust the yaw and pitch in the config.yml!'
+lobby_location: '&8[&6CastleWars&8] &7- Tools: &eLobby &flocation has been updated! &cPlease adjust the yaw and pitch in the config.yml!'
+spawn_location: '&8[&6CastleWars&8] &7- Tools: &eSpawn &flocation has been updated! &cPlease adjust the yaw and pitch in the config.yml!'
+spectator_location: '&8[&6CastleWars&8] &7- Tools: &eSpectator &flocation has been updated! &cPlease adjust the yaw and pitch in the config.yml!'
+minigame_map_location_1: '&8[&6CastleWars&8] &7- Tools: &eFirst map &flocation''s has been updated!'
+minigame_map_location_2: '&8[&6CastleWars&8] &7- Tools: &eSecond map &flocation''s has been updated!'
+lobby_1: '&8[&6CastleWars&8] &7- Tools: &eFirst lobby &flocation has been updated!'
+lobby_2: '&8[&6CastleWars&8] &7- Tools: &eSecond lobby &flocation has been updated!'

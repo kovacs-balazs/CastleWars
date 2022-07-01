@@ -1,0 +1,25 @@
+name: CastleWars
+version: '${project.version}'
+main: me.koba1.castlewars.Main
+authors: [ koba1 ]
+api-version: 1.18
+description: CastleWars
+softdepend:
+  - Multiverse-Core
+  - Mutliverse-Inventories
+
+commands:
+  castlewars:
+    aliases: [ castlew, cwars, cw ]
+
+permissions:
+  castlewars.blockbreak.bypass:
+    default: op
+  castlewars.blockplace.bypass:
+    default: op
+  castlewars.usetools:
+    default: op
+  castlewars.dropitem.bypass:
+    default: op
+  castlewars.admin.commands:
+    default: op

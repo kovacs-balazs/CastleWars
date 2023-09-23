@@ -50,17 +50,23 @@ public final class Main extends JavaPlugin {
         GameAPI_Main.isRunning = false;
         //Messages.setup();
 
-        if(!new File(getDataFolder() + "\\config.yml").exists())
+
+        // Using "\\" or "\" for paths is Windows-specific and Linux can't handle it.
+        // While Java can interpret a single forward slash ("/"), even on Windows,
+        // it's safer to use File.separator which gives the OS-specific separator.
+        // Using File's constructor with two parameters also ensures the correct separator.
+        // in me.koba1.castlewars.Files.Messages it is used correctly
+        if(!new File(getDataFolder(), "config.yml").exists())
             saveResource("config.yml", false);
 
-        if(!new File(getDataFolder() + "\\messages.yml").exists())
+        if(!new File(getDataFolder(), "messages.yml").exists())
             saveResource("messages.yml", false);
 
-        if(!new File(getDataFolder() + "\\kits.yml").exists()) {
+        if(!new File(getDataFolder(), "kits.yml").exists()) {
             saveResource("kits.yml", false);
         }
 
-        if(!new File(getDataFolder() + "\\shop.yml").exists()) {
+        if(!new File(getDataFolder(), "shop.yml").exists()) {
             saveResource("shop.yml", false);
         }
 
